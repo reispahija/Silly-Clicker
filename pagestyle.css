@@ -1,0 +1,67 @@
+body {
+	background-color: black;
+
+}
+ul {
+	list-style-type:none;
+	justify-content:center;
+}
+.ul {
+	list-style-type:none;
+	display:flex;
+	justify-content:center;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+li {
+	display:inline;
+	color:white;
+	font-size:50px;
+	border-radius:10px;
+}
+nav {
+	background-color:white;
+	outline-style:solid;
+	outline-color:blue;
+	outline-width:3px;
+	height:58px;
+	border-radius:10px;
+}
+.linkthingy {
+	transition: background-color 0.5s;
+	transition: color 0.5s;
+	color:black;
+	background-color:white;
+	border-radius:0px;
+}
+.linkthingy:hover {
+	background-color: #22008f;
+	color:white;
+}
+.linkthingy2 {
+	transition: background-color 0.5s;
+	transition: color 0.5s;
+	color:black;
+	background-color:white;
+
+}
+.linkthingy2:hover {
+	background-color: #22008f;
+	color:white;
+}
+
+div {
+	background-color:white;
+	outline-style:solid;
+	outline-color:blue;
+	outline-width:3px;
+	height:500px;
+	width:500px;
+	border-radius:10px;
+}
+li {
+	
+}

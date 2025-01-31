@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+		<title>Clicker</title>
+		
+	</head>
+	<body>
+		
+		<div class="clicker" id="counter">
+			<p class="counter" id="cash">0</p>
+			<p class="textthing">Cash</p>
+		</div>
+
+		<div class="clicker" id="wincounter">
+			<p class="counter" id="wins">0</p>
+			<p class="textthing">Wins</p>
+		</div>
+		
+		
+		<div class="clicker">
+			<button class="button" onclick="add()">Click Me For Money!!!!!</button>
+		</div>
+		
+		<div class="buttonholder">
+			
+			<div class="shop">
+				<ul>
+					<li onclick="valueincrease()" class="powerup"><img src="images/Value.png" id="Value">Increase<br> Click<br> Value</li>
+					<li onclick="auto()" class="powerup"><img src="images/Auto.png" id="Automatic">Unlock Auto (cost: 100 cash)</li>
+					<li onclick="increaseautospeed()" class="powerup"><img src="images/ASPEED.png" id="AutomaticSpeed">Increase Automatic Speed</li>
+					<li onclick="increaseautovalue()" class="powerup"><img src="images/AVALUE.png" id="AutomaticValue">Increase Automatic Value</li>
+					<li onclick="finish()" class="powerup"><img src="images/Complete.png" id="Complete">Finish (cost: 1000000000 cash)</li>
+				</ul>
+			</div>
+			
+		</div>
+
+
+
+
+	</body>
+</html>
+
+

@@ -1,0 +1,85 @@
+body {
+	background-color: black;
+
+}
+ul {
+	list-style-type:none;
+	padding:10px;
+}
+img {
+	display:flex;
+	justify-self:center;
+	width:69px;
+	height:69px;
+}
+.powerup {
+	display:inline-block;
+	background-color:#ffffff;
+	width:90px;
+	height:130px;
+	border-radius:10px;
+	
+}
+.powerup:hover {
+	display:inline-block;
+	background-color:#909090;
+	width:100px;
+	height:140px;
+	cursor:pointer;
+}
+.buttonholder {
+	display:flex;
+	justify-content:center;
+}
+
+.clicker {
+	display:flex;
+	justify-content:center;
+}
+.button {
+	background-color:#ffffff;
+	display:inline-block;
+	background-color:#ffffff;
+	width:200px;
+	height:30px;
+	border-radius:10px;
+	outline-style:solid;
+	outline-color:purple;
+	outline-width:3px;
+	transition: width 0.5s ease, height 0.5s ease, background-color 0.5s ease;
+}
+.button:hover {
+	cursor:pointer;
+	background-color:#909090;
+	width:220px;
+	height:40px;
+}
+
+p {
+	background-color:#ffffff;
+	display:flex;
+	height:109px;
+	border-radius:10px;
+	font-size:65px;
+}
+#counter {
+	display:flex;
+	width:auto;
+}
+#wincounter {
+	display:none;
+}
+.textthing {
+	background-color:black;
+	color:white;
+}
+li {
+	text-align:center;
+	font-size:auto;
+	transition: width 0.5s ease, height 0.5s ease, background-color 0.5s ease;
+	margin:3px;
+	padding:0;
+	outline-style:solid;
+	outline-color:purple;
+	outline-width:3px;
+}
